@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>EECS 348 Lab Three Practice Two</title>
+		<style>
+			body { font-family: Arial, sans-serif; margin: 24px; }
+			#paragraph { padding: 8px; border: 4px solid #000; max-width: 1200px; }
+			input { width: 180px; }
+			button { margin-top: 10px; }
+		</style>
+		<script src="changeFormatting.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<h1><span style="color:blue;">EECS</span> <span style="color:red;">348</span> | Lab 3 — Practice 2</h1>
+		
+		<div id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		Morbi semper turpis dui, et gravida ex rhoncus non.
+		Curabitur in ante lobortis, ultricies magna sed, consectetur ipsum.
+		Sed eu urna rhoncus, suscipit ipsum sed, mattis velit.
+		Cras faucibus blandit dapibus.
+		Phasellus libero odio, lacinia sit amet scelerisque vitae, bibendum a ante.
+		Quisque lacus ante, dignissim ut sapien sed, laoreet vehicula lectus.
+		Sed erat nisi, varius scelerisque finibus vel, porttitor malesuada libero.
+		Donec nisl nibh, porttitor in finibus et, congue quis turpis.
+		Praesent luctus aliquam ex sed porta.
+		Praesent semper malesuada neque, a feugiat lectus tincidunt id.
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+		Mauris dictum turpis eu neque sollicitudin, in auctor odio venenatis.
+		Quisque egestas lorem pulvinar faucibus rutrum.
+		Duis volutpat mauris porta, mattis orci quis, sodales mauris.
+		In sit amet facilisis massa, sit amet suscipit diam.</div>
+		
+		Border Red(0-255):<br>
+		<input id="border_R" type="text"><br>
+		Border Green(0-255):<br>
+		<input id="border_G" type="text"><br>
+		Border Blue(0-255):<br>
+		<input id="border_B" type="text"><br>
+		
+		Border Width:<br>
+		<input id="border_width" type="text"><br>
+		
+		Background Red(0-255):<br>
+		<input id="bg_R" type="text"><br>
+		Background Green(0-255):<br>
+		<input id="bg_G" type="text"><br>
+		Background Blue(0-255):<br>
+		<input id="bg_B" type="text"><br>
+		
+		Text Red(0-255):<br>
+		<input id="text_R" type="text"><br>
+		Text Green(0-255):<br>
+		<input id="text_G" type="text"><br>
+		Text Blue(0-255):<br>
+		<input id="text_B" type="text"><br>
+		
+		<button onclick="change_paragraph_styles()">Apply changes.</button>
+	</body>
+</html>
